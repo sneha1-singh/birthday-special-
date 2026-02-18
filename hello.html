@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>🎉 It's your special day My Love ❤️ INDER ❤️</title>
+    <style>
+        body {
+            font-family: Brush Script, sans-serif;
+            text-align: center;
+            background: linear-gradient(to right, #ff758c, #ff7eb3);
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            color: Black;
+            margin-top: 20px;
+        }
+
+        .main-image {
+            width: 300px;
+            border-radius: 20px;
+            margin: 30px 0;
+        }
+
+        .letters {
+            margin-top: 30px;
+        }
+
+        .letter-btn {
+            display: inline-block;
+            margin: 15px;
+            padding: 15px 20px;
+            background: white;
+            border-radius: 15px;
+            cursor: pointer;
+            transition: 0.3s;
+            width: 120px;
+        }
+
+        .letter-btn:hover {
+            background: #ffe6ec;
+            transform: scale(1.1);
+        }
+
+        .letter-btn img {
+            width: 70px;
+            height: 70px;
+   
+            object-fit: cover;
+        }
+
+        .letter-btn p {
+            margin: 5px 0 0;
+            font-weight: bold;
+            color: #ff4b7d;
+        }
+
+        /* Popup Style */
+        .popup {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.7);
+        }
+
+        .popup-content {
+            background: white;
+            width: 300px;
+            padding: 20px;
+            margin: 100px auto;
+            border-radius: 15px;
+            position: relative;
+        }
+
+        .popup-content img {
+            width: 250%;
+            max-width: 600px;
+            border-radius: 40px;
+        }
+
+        .close {
+            position: absolute;
+            top: 10px;
+            right: 15px;
+            cursor: pointer;
+            font-weight: bold;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>🎉 It's your special day My Love 💖 INDER ❤️</h1>
+
+    <!-- Main Image -->
+    <img src="https://i.postimg.cc/sfKmgv75/1st-link.jpg.jpg" class="main-image" alt="Birthday Image">
+
+    <!-- Letter Buttons -->
+    <div class="letters">
+
+        <div class="letter-btn" onclick="openPopup('popup1')">
+            <img src="https://i.postimg.cc/Qt1rLvtT/letter-imggg.jpg">
+            <p>Birthday Wish 💖</p>
+        </div>
+
+        <div class="letter-btn" onclick="openPopup('popup2')">
+            <img src="https://i.postimg.cc/Qt1rLvtT/letter-imggg.jpg">
+            <p>A Message 💖</p>
+        </div>
+
+        <div class="letter-btn" onclick="openPopup('popup3')">
+            <img src="https://i.postimg.cc/Qt1rLvtT/letter-imggg.jpg">
+            <p>Moment of US 💖</p>
+        </div>
+
+        <div class="letter-btn" onclick="openPopup('popup4')">
+            <img src="https://i.postimg.cc/Qt1rLvtT/letter-imggg.jpg">
+            <p>For You 💖</p>
+        </div>
+
+    </div>
+
+    <!-- Popup 1 -->
+    <div id="popup1" class="popup">
+        <div class="popup-content">
+            <span class="close" onclick="closePopup('popup1')">X</span>
+            <img src="https://i.postimg.cc/DzysDcpM/1st-linkk.jpg.jpg">
+            <p>💌 You are my heart and my happiness.</p>
+        </div>
+    </div>
+
+    <!-- Popup 2 -->
+    <div id="popup2" class="popup">
+        <div class="popup-content">
+            <span class="close" onclick="closePopup('popup2')">X</span>
+            <img src="https://i.postimg.cc/sDYhgLtt/2nd-link.jpg.jpg">
+            <p>🌹 Every day with you is a blessing.</p>
+        </div>
+    </div>
+
+    <!-- Popup 3 -->
+    <div id="popup3" class="popup">
+        <div class="popup-content">
+            <span class="close" onclick="closePopup('popup3')">X</span>
+            <img src="https://i.postimg.cc/J0ws13xd/3rd-link.jpg.jpg">
+            <p>💖 I am lucky to have you in my life.</p>
+        </div>
+    </div>
+
+    <!-- Popup 4 -->
+    <div id="popup4" class="popup">
+        <div class="popup-content">
+            <span class="close" onclick="closePopup('popup4')">X</span>
+            <img src="https://i.postimg.cc/13Rf530S/4rd-link.jpg.jpg">
+            <p>🎂 Happy Birthday to my forever love!</p>
+        </div>
+    </div>
+
+    <script>
+        function openPopup(id) {
+            document.getElementById(id).style.display = "block";
+        }
+
+        function closePopup(id) {
+            document.getElementById(id).style.display = "none";
+        }
+    </script>
+
+</body>
+</html>
